@@ -1,0 +1,1143 @@
+    1  ll
+    2  cd tech-stack-projects
+    3  ls
+    4  echo $SHELL
+    5  cd
+    6  exit
+    7  zsh --version
+    8  pwd
+    9  ls
+   10  exit
+   11  unrar
+   12  unrar x TD752SP04part01.rar
+   13  exit
+   14  unrar x SYBASE_ASE_TestDrive_2027_Mar_31.rar
+   15  exit
+   16  ll
+   17  cd SAPClients
+   18  ll
+   19  cd SAPGUI7.80rev1
+   20  ll
+   21  exit
+   22  history | grep psql
+   23  exit
+   24  bash
+   25  exit
+   26  bash --
+   27  zsh --beep
+   28  exit
+   29  sudo systemctl restart postgresql
+   30  sudo systemctl status postgresql
+   31  psql -U sadullah
+   32  psql --help
+   33  psql --list
+   34  psql --help=commands
+   35  psql
+   36  psql mydb
+   37  psql application
+   38  psql mydb
+   39  exit
+   40  ll
+   41  cd SAPClients
+   42  ll
+   43  cd SAPGUI
+   44  ll
+   45  cd bin
+   46  ll
+   47  ./guilogon
+   48  cd
+   49  cd /.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.7.v20250502-0916/jre/lib
+   50  cd .p2
+   51  ll
+   52  cd pool/plugins
+   53  ll
+   54  cd org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.7.v20250502-0916
+   55  ll
+   56  cd jre
+   57  ll
+   58  cd lib
+   59  ll
+   60  cd ..
+   61  ls lib | grep javafx
+   62  ls lib | grep rmi
+   63  cd
+   64  java --version
+   65  cd .p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.7.v20250502-0916/jre/lib
+   66  xdg-open
+   67  xdg-open .
+   68  exit
+   69  sudo systemctl status postgres
+   70  sudo systemctl status postgresql
+   71  sudo systemctl stop postgresql
+   72  sudo systemctl status postgresql
+   73  exit
+   74  ls
+   75  cd tech-stack-projects
+   76  ls
+   77  mkdir fetch-odata
+   78  cd fetch-odata
+   79  code .
+   80  npm init -y
+   81  npm install express node-fetch
+   82  node server.js
+   83  npm install express cors && npm uninstall node-fetch
+   84  node server.js
+   85  npm install && npm start
+   86  npm install dotenv && npm start
+   87  cd ..
+   88  mkdir fetch-odata-cloud
+   89  cd fetch-odata-cloud
+   90  code .
+   91  npm init -y
+   92  npm install && npm start
+   93  npm start
+   94  echo "<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=windows-1252\"><title>Anmeldung fehlgeschlagen</title><style>body { background: #ffffff; text-align: center; width:100%; height:100%; overflow:hidden; }.content { display: table; position:absolute; width:100%; height:80%; }.valigned { display: table-cell; vertical-align: middle; }.lowerCenter { display: table-cell; vertical-align: bottom; }.footer { position: absolute; bottom: 0; left: 0; width: 100%; z-index: -1; }.footerLeft { float: left; margin-left: 20px; }.footerRight { float: right; margin-right: 20px; position: absolute; bottom: 0px; right: 0px; }.centerText { font-style: normal; font-family: Arial; font-size: 26px; color: #444444; z-index: 1; }.errorTextHeader { font-style: normal; font-family: Arial; font-size: 40px; color: #444444; }.bottomText { align: center; font-style: normal; font-family: Arial; font-size: 14px; color: #444444; }.biggerBottomText { align: center; font-style: normal; font-family: Arial; font-size: 16px; color: #444444; }.detailTable { align: bottom; vertical-align: middle; margin-left:auto; margin-right:auto; font-style: normal; font-family: Arial; font-size: 16px; color: #444444; }</style></head><body><div class=\"content\"><div class=\"valigned\"><p class=\"centerText\"><span class=\"errorTextHeader\"> 401 Nicht autorisiert </span></p></div></div><div class=\"footer\"><div class=\"footerLeft\"><img width='150' height='80' title='' alt='SAP logo'src='data:image/png;base64,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'></div><div class=\"footerRight\"><p class=\"bottomText\"><span class=\"biggerBottomText\">©</span>2025 SAP SE, All rights reserved.</p></div></div></body></html>" >> index.html
+   95  exit
+   96  npm start
+   97  curl -X POST \\n  https://internal-xsuaa.authentication.us10.hana.ondemand.com/oauth/token \\n  -u "<clientid>:<clientsecret>" \\n  -d 'grant_type=client_credentials'\n
+   98  curl -X POST \\n  https://internal-xsuaa.authentication.us10.hana.ondemand.com/oauth/token \\n  -u "sb-3b3773f2-5775-4936-8f02-84bc18fa638ftrial-service-broker!b3132:6990bbd6-11be-4574-92cf-0d5d70b61d40$4zdEIxK2AuT7Ocx82VKPBW6Xg60v7Re1KlZwjiUf99c=" \\n  -d 'grant_type=client_credentials'\n
+   99  curl -X POST \\n  -u "sb-3b3773f2-5775-4936-8f02-84bc18fa638ftrial-service-broker!b3132:6990bbd6-11be-4574-92cf-0d5d70b61d40$4zdEIxK2AuT7Ocx82VKPBW6Xg60v7Re1KlZwjiUf99c=" \\n  "https://internal-xsuaa.authentication.us10.hana.ondemand.com/oauth/token" \\n  -d "grant_type=client_credentials"\n
+  100  curl -X POST "https://internal-xsuaa.authentication.us10.hana.ondemand.com/oauth/token" \\n  -H "Content-Type: application/x-www-form-urlencoded" \\n  -d "grant_type=client_credentials&client_id=sb-3b3773f2-5775-4936-8f02-84bc18fa638ftrial-service-broker!b3132&client_secret=6990bbd6-11be-4574-92cf-0d5d70b61d40$4zdEIxK2AuT7Ocx82VKPBW6Xg60v7Re1KlZwjiUf99c="\n
+  101  npm install && npm start
+  102  npm start
+  103  echo -n 'sb-3b3773f2-5775-4936-8f02-84bc18fa638f!b501942|abap-trial-service-broker!b3132:6990bbd6-11be-4574-92cf-0d5d70b61d40$4zdEIxK2AuT7Ocx82VKPBW6Xg60v7Re1KlZwjiUf99c=' | base64\n
+  104  curl -X POST \\n  "https://b85299a8trial.authentication.us10.hana.ondemand.com/oauth/token" \\n  -H "Authorization: Basic c2ItM2IzNzczZjItNTc3NS00OTM2LThmMDItODRiYzE4ZmE2MzhmIWI1MDE5NDJ8YWJhcC10cmlh\nbC1zZXJ2aWNlLWJyb2tlciFiMzEzMjo2OTkwYmJkNi0xMWJlLTQ1NzQtOTJjZi0wZDVkNzBiNjFk\nNDAkNHpkRUl4SzJBdVQ3T2N4ODJWS1BCVzZYZzYwdjdSZTFLbFp3amlVZjk5Yz0=\n" \\n  -H "Content-Type: application/x-www-form-urlencoded" \\n  -d "client_id=sb-3b3773f2-5775-4936-8f02-84bc18fa638ftrial-service-broker!b3132&grant_type=client_credentials"\n
+  105  curl -X GET \\n  "https://f3cc5dd0-460a-4857-8feb-b1d471dd9dbc.abap.us10.hana.ondemand.com/sap/opu/odata4/sap/zapi_sad_t_volunteer_o4/srvd_a2x/sap/zapi_sad_t_volunteer_o4/0001/ZC_SAD_T_VOLUNTEER" \\n  -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vYjg1Mjk5YTh0cmlhbC5hdXRoZW50aWNhdGlvbi51czEwLmhhbmEub25kZW1hbmQuY29tL3Rva2VuX2tleXMiLCJraWQiOiJkZWZhdWx0LWp3dC1rZXktYTk4MmViNzA0NyIsInR5cCI6IkpXVCIsImppZCI6ICI4TENMemFCcDRYV0J2YUYvMklSYmdFTks4T1gwZEJyYmhNRk80bkR1bEVrPSJ9.eyJqdGkiOiI0YzM4MTEyZjBiMmE0Nzg5YmY0NWI3MWExOWQ2NDE1MyIsImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJzdWJhY2NvdW50aWQiOiIzMGNmYTBmNS1mYTMxLTQ1NTYtYmJiYy0yNjZlYjdlMmQwNWQiLCJ6ZG4iOiJiODUyOTlhOHRyaWFsIiwic2VydmljZWluc3RhbmNlaWQiOiIzYjM3NzNmMi01Nzc1LTQ5MzYtOGYwMi04NGJjMThmYTYzOGYifSwic3ViIjoic2ItM2IzNzczZjItNTc3NS00OTM2LThmMDItODRiYzE4ZmE2MzhmIWI1MDE5NDJ8YWJhcC10cmlhbC1zZXJ2aWNlLWJyb2tlciFiMzEzMiIsImF1dGhvcml0aWVzIjpbInVhYS5yZXNvdXJjZSJdLCJzY29wZSI6WyJ1YWEucmVzb3VyY2UiXSwiY2xpZW50X2lkIjoic2ItM2IzNzczZjItNTc3NS00OTM2LThmMDItODRiYzE4ZmE2MzhmIWI1MDE5NDJ8YWJhcC10cmlhbC1zZXJ2aWNlLWJyb2tlciFiMzEzMiIsImNpZCI6InNiLTNiMzc3M2YyLTU3NzUtNDkzNi04ZjAyLTg0YmMxOGZhNjM4ZiFiNTAxOTQyfGFiYXAtdHJpYWwtc2VydmljZS1icm9rZXIhYjMxMzIiLCJhenAiOiJzYi0zYjM3NzNmMi01Nzc1LTQ5MzYtOGYwMi04NGJjMThmYTYzOGYhYjUwMTk0MnxhYmFwLXRyaWFsLXNlcnZpY2UtYnJva2VyIWIzMTMyIiwiZ3JhbnRfdHlwZSI6ImNsaWVudF9jcmVkZW50aWFscyIsInJldl9zaWciOiJlNjA3ZDFjZiIsImlhdCI6MTc1NTc3NjI4NSwiZXhwIjoxNzU1ODE5NDg1LCJpc3MiOiJodHRwczovL2I4NTI5OWE4dHJpYWwuYXV0aGVudGljYXRpb24udXMxMC5oYW5hLm9uZGVtYW5kLmNvbS9vYXV0aC90b2tlbiIsInppZCI6IjMwY2ZhMGY1LWZhMzEtNDU1Ni1iYmJjLTI2NmViN2UyZDA1ZCIsImF1ZCI6WyJzYi0zYjM3NzNmMi01Nzc1LTQ5MzYtOGYwMi04NGJjMThmYTYzOGYhYjUwMTk0MnxhYmFwLXRyaWFsLXNlcnZpY2UtYnJva2VyIWIzMTMyIiwidWFhIl19.Jt9fJC8QX5T5iHozAO4n34Iq2WiVE1B0nL2SG57G21v1vrpfRhzek3ljWl1NZUJ51J4g4GRn7BHLThsR3zy3nTgY04LahCJLuYFU4fNXJaqS7vpu_HWn5rJ8mRbBWjHv6T54BQLj47wIHJLpDWAhQhL6Y5JjkrBe9B6Pcz1DU4wQ1XluX_r1NgpqSZETW-psbOoR6vJd_qRyLcYBdmjPHj_0xsYTfM4a13nnT9izH8qBCBMnZuY_IEbx8DKW5bXLIRb8detxu9t7V-e8AK1yatv5OUm8waLLM9BKOw5vZQ3K8u10Bv8MihHgE9Iiuiw_zmVWPwNAvvGa5z_VtkMtYA\n"\n  -H "Accept: application/json"\n
+  106  npm start
+  107  exit
+  108  reboot
+  109  btp
+  110  curl https://cli.btp.cloud.sap/btpcli-install.sh | bash
+  111  btp
+  112  btp list accounts/subaccount
+  113  btp login
+  114  btp list accounts/subaccount
+  115  btp target --help
+  116  btp target --subaccount 30cfa0f5-fa31-4556-bbbc-266eb7e2d05d
+  117  clear
+  118  btp list security/available-idp
+  119  btp logout
+  120  exit
+  121  cd tech-stack-projects
+  122  ll
+  123  mkdir BluehendeAkademie
+  124  cd BluehendeAkademie
+  125  code .
+  126  mkdir assets
+  127  ll
+  128  touch index.html style.css app.js manifest.json serviceworker.js
+  129  ll
+  130  exit
+  131  code .
+  132  cd ..
+  133  mkdir BluehendeAkademieDashboard
+  134  cd BluehendeAkademieDashboard
+  135  touch index.html
+  136  code .
+  137  cd ..
+  138  cd
+  139  history | grep postgre
+  140  sudo systemctl restart postgresql
+  141  sudo systemctl status postgresql
+  142  history | grep psql
+  143  psql mydb
+  144  clear
+  145  cd tech-stack-projects
+  146  ll
+  147  mkdir BluehendeAkademieBlog
+  148  cd BluehendeAkademieBlog
+  149  npm init -y && npm i express pg cors body-parser
+  150  nano server.js
+  151  nano index.html
+  152  code .
+  153  npm run start
+  154  psql -U sadullah
+  155  history | grep psql
+  156  bash
+  157  npm run start
+  158  psql -U sadullah
+  159  psql mydb
+  160  exit
+  161  cd tech-stack-projects
+  162  ll
+  163  code BluehendeAkademie/ BluehendeAkademieBlog BluehendeAkademieDashboard
+  164  code BluehendeAkademie/ && code BluehendeAkademieBlog/ && code BluehendeAkademieDashboard/
+  165  cd
+  166  sudo systemctl status postgres
+  167  sudo systemctl status postgresql
+  168  npm run start
+  169  sudo systemctl restart postgresql
+  170  sudo systemctl stop postgresql
+  171  sudo systemctl status postgresql
+  172  exit
+  173  command -v nvm
+  174  curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash\nsource ~/.bashrc\n
+  175  node --version
+  176  bash
+  177  exit
+  178  command -v nvm
+  179  nvm ls-remote
+  180  nvm install 22
+  181  node -v
+  182  npm -v
+  183  npm install -g npm@latest
+  184  npm -v
+  185  code .
+  186  cd DashboardBluehendeAkademie
+  187  git init
+  188  cd ..
+  189  cd BlogBluehendeAkademie
+  190  git init
+  191  cd ..
+  192  cd BluehendeAkademie
+  193  git init
+  194  cd ..
+  195  exit
+  196  code .
+  197  exit
+  198  code .
+  199  exit
+  200  code .
+  201  exit
+  202  cd tech-stack-projects
+  203  ll
+  204  cd fetch-odata-cloud
+  205  code .
+  206  npm run start
+  207  curl "https://f3cc5dd0-460a-4857-8feb-b1d471dd9dbc.abap-web.us10.hana.ondemand.com/sap/opu/odata4/sap/zapi_sad_t_voluunte_o4/srvd_a2x/sap/zapi_sad_t_voluunte_o4/0001/?sap-client=100"\n
+  208  npm run start
+  209  npm install & npm run start
+  210  npm run start
+  211  npm install
+  212  npm run start
+  213  cd ..
+  214  ll
+  215  cd
+  216  history |grep postgresql
+  217  sudo systemctl status postgresql
+  218  exit
+  219  node -v && npm -v && cds --version && npm install -g @cap-js/sqlite
+  220  whereis sqlite
+  221  whereis sqlite3
+  222  npm istall -g @sap/cds-dk
+  223  npm install -g @sap/cds-dk
+  224  node -v && npm -v && cds --version
+  225  cds
+  226  cd tech-stack-projects/ll
+  227  cd tech-stack-projects
+  228  ll
+  229  cd bookshop
+  230  ll
+  231  exit
+  232  cd tech-stack-projects
+  233  ll
+  234  cd BlogBluehendeAkademie
+  235  ll
+  236  node server.js
+  237  sudo systemctl restart postgresql
+  238  sudo systemctl status postgresql
+  239  code .
+  240  sudo systemctl restart postgresql
+  241  node server.js
+  242  exit
+  243  sudo systemctl stop postgresql
+  244  exit
+  245  cd tech-stack-projects
+  246  ll
+  247  cd BlogBluehendeAkademie
+  248  code .
+  249  npm run start
+  250  cd
+  251  sudo systemctl restart postgresql
+  252  sudo systemctl status postgresql
+  253  psql mydb
+  254  npm run start
+  255  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  256  exit
+  257  sudo systemctl stop postgresql
+  258  sudo systemctl status postgresql
+  259  exit
+  260  cd tech-stack-projects
+  261  ll
+  262  mkdir leyletul-mevlid-salavat-counter
+  263  cd leyletul-mevlid-salavat-counter
+  264  touch index.html
+  265  code .
+  266  cd
+  267  render psql dpg-d2bhrvqdbo4c73arr5hg-a
+  268  cd tech-stack-projects
+  269  cd leyletul-mevlid-salavat-counter
+  270  npm init -y && npm i express pg
+  271  mkdir assets
+  272  npm run start
+  273  npm i cors
+  274  npm run start
+  275  node server.js
+  276  npm run start
+  277  exit
+  278  cd
+  279  psql 'postgresql://my_tiny_fullstack_db_user:Sr92sP0enZ9gqc0RqQKARBpQca2qNaBg@dpg-d2bhrvqdbo4c73arr5hg-a.frankfurt-postgres.render.com/my_tiny_fullstack_db'
+  280  npm run start
+  281  cd tech-stack-projects/leyletul-mevlid-salavat-counter
+  282  psql 'postgresql://my_tiny_fullstack_db_user:Sr92sP0enZ9gqc0RqQKARBpQca2qNaBg@dpg-d2bhrvqdbo4c73arr5hg-a.frankfurt-postgres.render.com/my_tiny_fullstack_db'
+  283  cd
+  284  sudo apt update && sudo apt upgrade
+  285  reboot
+  286  cd tech-stack-projects/leyletul-mevlid-salavat-counter
+  287  psql 'postgresql://my_tiny_fullstack_db_user:Sr92sP0enZ9gqc0RqQKARBpQca2qNaBg@dpg-d2bhrvqdbo4c73arr5hg-a.frankfurt-postgres.render.com/my_tiny_fullstack_db'
+  288  npm run start
+  289  nano server.js
+  290  npm run start
+  291  code .
+  292  npm init
+  293  npm run start
+  294  npm install postgres express cors\n
+  295  npm run start
+  296  npm i dotenv
+  297  npm run start
+  298  exit
+  299  psql 'postgresql://my_tiny_fullstack_db_user:Sr92sP0enZ9gqc0RqQKARBpQca2qNaBg@dpg-d2bhrvqdbo4c73arr5hg-a.frankfurt-postgres.render.com/my_tiny_fullstack_db'
+  300  exit
+  301  cd tech-stack-projects
+  302  ll
+  303  cd BlogBluehendeAkademie
+  304  code .
+  305  cd
+  306  ll
+  307  cd SAPClients
+  308  xdg-open
+  309  xdg-open .
+  310  exit
+  311  pwd
+  312  cd tech-stack-projects
+  313  ll
+  314  cd fetch-odata-cloud
+  315  code .
+  316  cd ../fetch-odata-onprem
+  317  cd ..
+  318  ll
+  319  cat fetch-odata-sap.code-workspace
+  320  mkdir fetch-odata-frontend
+  321  cd fetch-odata-frontend
+  322  cd ..
+  323  cd
+  324  sudo systemctl status postgresql
+  325  sudo systemctl restart postgresql
+  326  sudo systemctl status postgresql
+  327  history | grep psql
+  328  psql application
+  329  psql mydb
+  330  cd tech-stack-projects
+  331  fetch-odata-frontend
+  332  npm install express pg cors dotenv
+  333  npm init -y
+  334  npm run start
+  335  cd
+  336  psql mydb
+  337  npm run start
+  338  npm install
+  339  npm run start
+  340  exit
+  341  sudo apt update && sudo apt upgrade && sudo apt install sox
+  342  exit
+  343  reco
+  344  exit
+  345  reboot
+  346  sudo update && sudo upgrade
+  347  sudo apt update && sudo apt upgrade
+  348  exit
+  349  cd .local/share/cinnamon/applets
+  350  ll
+  351  cd ..
+  352  ll
+  353  cd desklets
+  354  ll
+  355  cd ../extensions
+  356  ll
+  357  cd ../search_providers
+  358  ll
+  359  exit
+  360  cd .local/share/
+  361  ll
+  362  cd cinnamon
+  363  ll
+  364  cd ..
+  365  ll
+  366  mkdir fonts
+  367  cd fonts
+  368  xdg-open
+  369  xdg-open .
+  370  reboot
+  371  history | grep psql
+  372  ll
+  373  ls -al
+  374  exit
+  375  pwd
+  376  cd ..
+  377  ll
+  378  cd sadullah
+  379  ll
+  380  cd Templates
+  381  ll
+  382  touch libre-writer-template.odt
+  383  ll
+  384  xdg-open libre-writer-template.odt
+  385  xdg-open .
+  386  cd
+  387  exit
+  388  cd tech-stack-projects
+  389  ls
+  390  cd BluehendeAkademie
+  391  code .
+  392  cd
+  393  exit
+  394  whereis slack
+  395  cd tech-stack-projects
+  396  ll
+  397  cd animal-zoo-oop-ts
+  398  code .
+  399  history | grep tsc
+  400  tsc --pretty
+  401  tsc --watch
+  402  cd
+  403  cd tech-stack-projects
+  404  cd animal-zoo-oop-ts
+  405  code .
+  406  tsc --watch
+  407  cd ..
+  408  ll
+  409  rm -rf animal-zoo-oop-ts
+  410  ll
+  411  whereis pinecone
+  412  bash
+  413  ll
+  414  rm -rf local-ollama
+  415  ll
+  416  cd oop-ts
+  417  ll
+  418  code .
+  419  cd ..
+  420  rm -rf oop-ts
+  421  ll
+  422  rm -rf leyletul-mevlid-salavat-counter
+  423  ll
+  424  clear
+  425  ll
+  426  find . -name "*node_*"
+  427  find . -name "*node_*" -type d
+  428  rm -rf mobile/myCoolApp/node_modules
+  429  find . -name "*node_*" -type d
+  430  ll
+  431  rm -rf my-tiny-fullstack-app
+  432  ll
+  433  rm -rf mobile
+  434  ll
+  435  code fetch-odata-sap.code-workspace
+  436  exit
+  437  sudo systemctl status postgresql
+  438  sudo systemctl restart postgresql
+  439  sudo systemctl status postgresql
+  440  npm run start
+  441  exit
+  442  cd tech-stack-projects
+  443  ll
+  444  clear
+  445  cd fetch-odata-frontend
+  446  npm run start
+  447  cd
+  448  history | grep psql
+  449  psql mydb
+  450  nodemon server.js
+  451  npm i nodemon --save-dev
+  452  nodemon server.js
+  453  npm i -g nodemon --save-dev
+  454  npm list --global
+  455  nodemon server.js
+  456  exit
+  457  cd tech-stack-projects
+  458  ll
+  459  code fetch-odata-frontend
+  460  cd fetch-odata-frontend
+  461  nodemon server.js
+  462  exit
+  463  cd
+  464  exit
+  465  sudo systemctl stop postgresql
+  466  sudo systemctl status postgresql
+  467  exit
+  468  cd tech-stack-projects
+  469  ll
+  470  cd BluehendeAkademie
+  471  code .
+  472  cd
+  473  exit
+  474  sudo apt update && sudo apt upgrade
+  475  sudo apt autoremove
+  476  sudo apt-get install translate-shell
+  477  sudo apt-get install mplayer
+  478  cd tech-stack-projects
+  479  clear
+  480  ll
+  481  cd BluehendeAkademie
+  482  code .
+  483  exit
+  484  cd tech-stack-projects
+  485  ls
+  486  cd BluehendeAkademie
+  487  code .
+  488  exit
+  489  cd tech-stack-projects
+  490  cd BluehendeAkademie
+  491  code .
+  492  exit
+  493  cd tech-stack-projects
+  494  ll
+  495  cd BluehendeAkademie
+  496  code .
+  497  exit
+  498  cd tech-stack-projects
+  499  ll
+  500  mkdir canvas-tryna
+  501  cd canvas-tryna
+  502  code .
+  503  exit
+  504  cd tech-stack-projects
+  505  git clone https://github.com/Sadullah-TANRIKULU/tryit.git
+  506  cd tryit
+  507  code .
+  508  exit
+  509  cd tech-stack-projects
+  510  cd tryit
+  511  code .
+  512  cd ..
+  513  ll
+  514  rm -rf tryit
+  515  cd
+  516  exit
+  517  echo $WAYLAND_DISPLAY
+  518  printenv
+  519  exit
+  520  cd tech-stack-projects
+  521  ll
+  522  cd Blue
+  523  cd BluehendeAkademie
+  524  code .
+  525  cd
+  526  history | grep neon
+  527  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  528  npm init
+  529  npm install express pg body-parser cors
+  530  cd tech-stack-projects
+  531  cd BlogBluehendeAkademie
+  532  ll
+  533  cat server.js
+  534  cat .env
+  535  npm run start
+  536  npm install dotenv
+  537  npm run start
+  538  cd ..
+  539  ll
+  540  cd fetch-odata-frontend
+  541  ll
+  542  cat server.js
+  543  npm run start
+  544  cd ..
+  545  cd
+  546  sudo systemctl status postgresql
+  547  sudo systemctl restart postgresql
+  548  npm run start
+  549  rm -rf .git/
+  550  exit
+  551  sudo systemctl stop postgresql
+  552  exit
+  553  cd tech-stack-projects
+  554  ll
+  555  cd BluehendeAkademie
+  556  code .
+  557  npm run start
+  558  exit
+  559  cd tech-stack-projects
+  560  cd BluehendeAkademie
+  561  code .
+  562  cd ..
+  563  rm -rf BluehendeAkademie
+  564  ll
+  565  git clone https://github.com/Sadullah-TANRIKULU/BluehendeAkademie.git
+  566  ll
+  567  cd BluehendeAkademie
+  568  code .
+  569  rm -rf .git/
+  570  cd
+  571  history | grep neon
+  572  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  573  npm init -y
+  574  touch server.js
+  575  npm install dotenv cors express body-parser
+  576  touch .env
+  577  cd ..
+  578  cd BlogBluehendeAkademie
+  579  ll
+  580  cat .env
+  581  cat server.js
+  582  node server.js
+  583  npm install pg
+  584  node server.js
+  585  ll
+  586  cat index.html
+  587  node server.js
+  588  exit
+  589  cd
+  590  cd tech-stack-projects
+  591  ll
+  592  mv BluehendeAkademie TrBluehendeAkademie
+  593  cd TrBluehendeAkademie
+  594  code .
+  595  exit
+  596  cd tech-stack-projects
+  597  ll
+  598  git clone https://github.com/Sadullah-TANRIKULU/BluehendeAkademie.git
+  599  cd BluehendeAkademie
+  600  code .
+  601  cd --
+  602  cd tech-stack-projects
+  603  ll
+  604  mkdir url-protection-ways
+  605  cd url-protection-ways
+  606  code .
+  607  exät
+  608  exit
+  609  history | grep neon
+  610  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'\n
+  611  exit
+  612  sudo systemctl stop postgresql
+  613  sudo systemctl status postgresql
+  614  exit
+  615  cd tech-stack-projects
+  616  ll
+  617  cd TrBluehendeAkademie
+  618  code .
+  619  exät
+  620  exit
+  621  npm run start
+  622  history |grep neon
+  623  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  624  clear
+  625  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  626  cd admin-panel
+  627  npm init -y
+  628  npm run start
+  629  exit
+  630  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  631  cd tech-stack-projects
+  632  ll
+  633  cd TrBluehendeAkademie
+  634  code admin-panel
+  635  code ./index.html
+  636  code index.html
+  637  ll
+  638  code .
+  639  exit
+  640  cd tech-stack-projects
+  641  cd TrBluehendeAkademie
+  642  code .
+  643  npm run start
+  644  exit
+  645  sudo systemctl status postgresql
+  646  sudo systemctl stop postgresql
+  647  exit
+  648  sudo systemctl status postgresql
+  649  exit
+  650  cat Tahiyyat\ duası
+  651  touch tahiyyat-duasi
+  652  ll
+  653  exit
+  654  cd Desktop
+  655  cd Power-Coders
+  656  ll
+  657  cd preparation-weeks-powercoders
+  658  ll
+  659  unzip Code-Check-In-25-2.zip
+  660  ll
+  661  cd Code-Check-In-25-2
+  662  code .
+  663  cd ..
+  664  cp -R Code-Check-In-25-2 ./sadullah_tanrikulu
+  665  ll
+  666  cd sadullah_tanrikulu
+  667  code .
+  668  cd ..
+  669  zip 
+  670  zip sadullah_tanrikulu
+  671  ll
+  672  exit
+  673  sudo apt update && sudo apt upgrade
+  674  exit
+  675  cd tech-stack-projects
+  676  ll
+  677  cd TrBluehendeAkademie
+  678  ls -al
+  679  code admin-panel
+  680  code .
+  681  cd
+  682  history | grep neon
+  683  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'\n
+  684  node server.js
+  685  exit
+  686  cd tech-stack-projects
+  687  TRB
+  688  TrBluehendeAkademie
+  689  code .
+  690  cd ..
+  691  ll
+  692  cp -R BlogBluehendeAkademie ./TRBluehendeAkademie/TRBlogBluehendeAkademie
+  693  cp -R BlogBluehendeAkademie ./TrBluehendeAkademie/blog
+  694  cd TrBluehendeAkademie/ll
+  695  cd TrBluehendeAkademie
+  696  ll
+  697  ls -al
+  698  find . -name ".git"
+  699  cd blog
+  700  ll
+  701  ls -al
+  702  rm .git
+  703  rm -rf .git
+  704  cd ..
+  705  cd
+  706  exit
+  707  cd tech-stack-projects
+  708  ll
+  709  cd TrBluehendeAkademie
+  710  code .
+  711  cd ..
+  712  cd BluehendeAkademie
+  713  ls -al
+  714  rm -rf .git
+  715  ll
+  716  cd ..
+  717  mv BluehendeAkademie BluehendeAkademie2
+  718  cd BluehendeAkademie2
+  719  code .
+  720  exit
+  721  cd tech-stack-projects
+  722  ll
+  723  cd BluehendeAkademie2
+  724  code .
+  725  cd
+  726  exit
+  727  cd tech-stack-projects
+  728  ls
+  729  cd BluehendeAkademie2
+  730  code .
+  731  cd ..
+  732  cd TrBluehendeAkademie
+  733  ll
+  734  cat index.html
+  735  cat head 10
+  736  head 10
+  737  head -20 index.html
+  738  head -50 index.html
+  739  head -100 index.html
+  740  cat index.html
+  741  exit
+  742  cd tech-stack-projects/BluehendeAkademie2
+  743  code .
+  744  cd ..
+  745  ll
+  746  git clone https://github.com/Sadullah-TANRIKULU/leyletul-mevlid-salavat-counter.git
+  747  cd leyletul-mevlid-salavat-counter
+  748  code .
+  749  cd
+  750  render psql dpg-d31e7rjipnbc73bcasqg-a
+  751  node server.js
+  752  npm install
+  753  node server.js
+  754  exit
+  755  cd tech-stack-projects
+  756  cd BluehendeAkademie2
+  757  code .
+  758  cd ..
+  759  ll
+  760  cd DashboardBluehendeAkademie
+  761  code .
+  762  cd ..
+  763  mkdir dasSpielGottzuverstehen
+  764  cd dasSpielGottzuverstehen
+  765  code .
+  766  exit
+  767  cd tech-stack-projects
+  768  ll
+  769  cd leyletul-mevlid-salavat-counter
+  770  code .
+  771  exit
+  772  cd tech-stack-projects
+  773  ll
+  774  cd dasSpielGottzuverstehen
+  775  code .
+  776  exit
+  777  clear
+  778  cd tech-stack-projects
+  779  ll
+  780  cd fetch-odata-frontend
+  781  code .
+  782  npm run start
+  783  cd
+  784  sudo systemctl status postgresql
+  785  sudo systemctl restart postgresql
+  786  npm run start
+  787  psql mydb
+  788  npm run start
+  789  exit
+  790  cd tech-stack-projects
+  791  cd fetch-odata-frontend
+  792  npm run start
+  793  exit
+  794  cd tech-stack-projects
+  795  ll
+  796  mv fetch-odata-frontend fetch-odata-sap-all
+  797  ll
+  798  clear
+  799  ls
+  800  cd
+  801  sudo systemctl status postgresql
+  802  sudo systemctl restart postgresql
+  803  code fetch-odata-sap-all
+  804  cd ..
+  805  ll
+  806  mkdir power-coding
+  807  cd power-coding
+  808  code .
+  809  touch {1..10}.txt
+  810  ll
+  811  rm *
+  812  ll
+  813  cd
+  814  cd tech-stack-projects
+  815  ll
+  816  mkdir shell-scripting
+  817  cd shell-scripting
+  818  nano hello_world.sh
+  819  chmod +x hello_world.sh
+  820  ll
+  821  ./hello_world.sh
+  822  nano info.sh
+  823  chmod +x info.sh
+  824  ll
+  825  ./info.sh
+  826  nano info.sh
+  827  ./in
+  828  ./info.sh
+  829  nano info.sh
+  830  ./info.sh
+  831  nano info.sh
+  832  ./info.sh
+  833  nano info.sh
+  834  ./info.sh
+  835  nano info.sh
+  836  nano loops.sh
+  837  ./loops.sh
+  838  nano loops.sh
+  839  ./loops.sh
+  840  chmod +x loops.sh
+  841  ./loops.sh
+  842  nano loops.sh
+  843  nano advanced-loop-concepts.sh
+  844  chmod +x advanced-loop-concepts.sh
+  845  ll
+  846  ./advanced-loop-concepts.sh
+  847  nano funcs.sh && chmod +x funcs.sh
+  848  ./funcs.sh
+  849  nano loop-control.sh && chmod +x loop-control.sh
+  850  ./loop-control.sh
+  851  nano input-validation.sh && chmod +x input-validation.sh
+  852  ./input-validation.sh Alice
+  853  ./input-validation.sh
+  854  cd ..
+  855  ll
+  856  cd ..
+  857  ll
+  858  cd power-coding
+  859  ll
+  860  nano task1-cli.sh && chmod +x task1-cli.sh
+  861  ./task1-cli.sh
+  862  nano task1-cli.sh
+  863  ll
+  864  nano task1-cli.sh
+  865  ./task1-cli.sh
+  866  ll
+  867  ls sub-dir
+  868  rm *
+  869  nano task1-cli && chmod +x task1-cli
+  870  ./task1-cli
+  871  ll
+  872  cd /tmp
+  873  ll
+  874  cat bootcamp
+  875  cat last-modified.txt
+  876  rm -rf bootcamp last-modified.txt
+  877  ll
+  878  cd
+  879  cd power-coding
+  880  ll
+  881  rmdir sub-dir
+  882  rm -rf sub-dir
+  883  ll
+  884  ./task1-cli
+  885  nano task1-cli
+  886  mv task1-cli task1-cli.sh
+  887  ll
+  888  rm -rf sub-dir
+  889  cd /tmp
+  890  cat bootcamp last-modified.txt
+  891  rm -rf bootcamp last-modified.txt
+  892  cd ~/powercoding
+  893  cd /home/powercoding
+  894  cd ~/power-coding
+  895  ll
+  896  git clone https://github.com/Sadullah-TANRIKULU/happy-teacher-day.git
+  897  rm -rf happy-teacher-day
+  898  cd
+  899  cd Desktop
+  900  mkdir poco
+  901  cd poco
+  902  git init
+  903  mkdir week1 week2 week3 week4
+  904  cp README.md ./week1 ./week2 ./week3 ./week4
+  905  touch README.md && cp -r README.md ./week1 ./week2 ./week3 ./week4
+  906  ll
+  907  rm README.md
+  908  ll
+  909  tree
+  910  rm -r ./week4/*
+  911  ll
+  912  ls week1
+  913  touch README.md && for dir in week1 week2 week3 week4; do cp README.md "$dir/"; done
+  914  tree
+  915  rm README.md
+  916  count=1 for dir in week1 week2 week3 week4; do echo $count >> "$dir/README.md" count++; done
+  917  count=1 for dir in week1 week2 week3 week4; do echo $count >> "$dir/README.md" ((count++)); done
+  918  count=1; for dir in week1 week2 week3 week4; do echo $count >> "$dir/README.md"; ((count++)); done
+  919  tree
+  920  cat week1/README.md
+  921  cat week2/README.md
+  922  cat week3/README.md
+  923  cat week4/README.md
+  924  ll
+  925  git log
+  926  echo "# poco" >> README.md
+  927  git init
+  928  git add README.md
+  929  git commit -m "first commit"
+  930  git branch -M master
+  931  git remote add origin https://github.com/Sadullah-TANRIKULU/poco.git
+  932  git push -u origin master
+  933  git log
+  934  git status
+  935  rm -R .git
+  936  rm -rf .git
+  937  cd ..
+  938  rm -rf poco
+  939  git clone https://github.com/Sadullah-TANRIKULU/poco.git
+  940  cd poco
+  941  ll
+  942  cat README.md
+  943  mkdir week1 week2 week3 week4
+  944  for dir week1 week2 week3 week4; do touch "$dir/README.md" done\n;
+  945  for dir in week1 week2 week3 week4; do touch "$dir/README.md" done\n;\n
+  946  ll
+  947  tree
+  948  for dir in week1 week2 week3 week4; do touch "$dir/README.md" done;\n
+  949  for dir in week1 week2 week3 week4; do touch "$dir/README.md"; done\n
+  950  tree
+  951  count=1; for dir in week1 week2 week3 week4; do echo "$count" >> "$dir/README.md"; ((count++)); done
+  952  git status
+  953  git add .
+  954  git status
+  955  git stash
+  956  git log --all --oneline
+  957  git stash pop
+  958  git commit-graph
+  959  git commit-graph verify
+  960  git commit-graph write
+  961  git commit-graph --help
+  962  git commit-graph --object-dir
+  963  git commit-graph --object-dir .
+  964  rfetch
+  965  speedtest
+  966  exit
+  967  tree
+  968  cat testing-weeks-powercders/first-notes.odt
+  969  exit
+  970  cd /tmp
+  971  ls
+  972  cd
+  973  ll
+  974  rm file2.txt
+  975  ll
+  976  exit
+  977  cd
+  978  history | grep neon
+  979  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'\n
+  980  exit
+  981  cd tech-stack-projects
+  982  ll
+  983  cd BlogBluehendeAkademie
+  984  code .
+  985  cd ..
+  986  BluehendeAkademie2
+  987  code .
+  988  cd
+  989  ^[[200~psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+  990  ~
+  991  psql 'postgresql://neondb_owner:npg_r0SwChlHJ3bx@ep-quiet-wildflower-a2bcbrp7-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'\n
+  992  exit
+  993  sudo apt update && sudo apt upgrade
+  994  exit
+  995  cd power-coding
+  996  ll
+  997  mkdir 05_class
+  998  cd 05_class
+  999  git config
+ 1000  git status
+ 1001  git init
+ 1002  git status
+ 1003  mkdir new_folder
+ 1004  git status
+ 1005  git add new_folder
+ 1006  git status
+ 1007  cd new_folder
+ 1008  touch new_file.txt && echo "something into this file goes" >> new_file.txt
+ 1009  git status
+ 1010  git add new_folder
+ 1011  git add .
+ 1012  cd ..
+ 1013  git status
+ 1014  git commit -m "I add new_file.txt into new_folder"
+ 1015  git status
+ 1016  cd new_folder
+ 1017  git init
+ 1018  git add .
+ 1019  git status
+ 1020  git
+ 1021  ll
+ 1022  ls -al
+ 1023  rm -r .git
+ 1024  git log
+ 1025  cd ..
+ 1026  git comit --amend
+ 1027  git commit --amend
+ 1028  git restore --staged ./new_folder/new_file.txt
+ 1029  git restore -v --staged ./new_folder/new_file.txt
+ 1030  git status
+ 1031  cd new_folder
+ 1032  git status
+ 1033  clear
+ 1034  git log
+ 1035  echo "new line to learn git revert HEAD" >> new_file.txt
+ 1036  git status
+ 1037  git add new_file.txt
+ 1038  git log
+ 1039  git commit -m "second commit"
+ 1040  git log
+ 1041  git revert HEAD --no-edit
+ 1042  git log --oneline
+ 1043  git log 
+ 1044  git status
+ 1045  echo "new line to learn git revert ID" >> new_file.txt
+ 1046  git add new_file.txt
+ 1047  git commit -m "third commit"
+ 1048  git status
+ 1049  git log
+ 1050  git revert 447e78575774c12936383075ea2deb0ce33110ca
+ 1051  gti revert --skip
+ 1052  git revert --skip
+ 1053  git log --oneline
+ 1054  git revert 103f4e2
+ 1055  cd ..
+ 1056  git status
+ 1057  clear
+ 1058  ll
+ 1059  # create a new folder
+ 1060  # create a new file in it
+ 1061  # add some text into this file
+ 1062  # initialize version control and make that folder with git tracked
+ 1063  # add more text into that file
+ 1064  # add this file to stage and commit with a message
+ 1065  # do this 5 times (add some text and commit it)
+ 1066  # after that see the log
+ 1067  # revert to a specific commit
+ 1068  # edit one of your commit messages
+ 1069  # check the current status of version control
+ 1070  # create a new file and write some text into it
+ 1071  # add it into stage area and get back it from there
+ 1072  # create a new folder in current folder and also initialize it
+ 1073  # see your folder tree with command "tree"
+ 1074  # remove the hidden git folder that is in your second created folder
+ 1075  # see the current status of your folders and files
+ 1076* history | tail -10
+ 1077* history | tail -20
+ 1078* history | tail -18
+ 1079* history | tail -20
+ 1080  # see your command history with command "history"
+ 1081  mkdir poco-class
+ 1082  cd poco-class
+ 1083  touch myfile1.txt
+ 1084  echo "some text first line" >> myfile1.txt
+ 1085  cat myfile1.txt
+ 1086  git init
+ 1087  ls -al
+ 1088  cd ..
+ 1089  ls -al
+ 1090  cd poco-class
+ 1091  rm -r .git
+ 1092  git add myfile1.txt
+ 1093  git status
+ 1094  git commit -m "first commit"
+ 1095  history | tail -20
+ 1096  echo "some text second line" >> myfile1.txt
+ 1097  cat myfile1.txt
+ 1098  git status
+ 1099  git add myfile1.txt
+ 1100  git commit -m "second commit"
+ 1101  git status
+ 1102  git log
+ 1103  echo "some text third line" >> myfile1.txt
+ 1104  git add myfile1.txt
+ 1105  git commit -m "third commit"
+ 1106  git log
+ 1107  echo "some text fourth line" >> myfile1.txt
+ 1108  cat myfile1.txt
+ 1109  git add myfile1.txt
+ 1110  git status
+ 1111  git commit -m "fourth commit"
+ 1112  git log
+ 1113  echo "some text fifth line" >> myfile1.txt
+ 1114  cat myfile1.txt
+ 1115  git add myfile1.txt
+ 1116  git status
+ 1117  git commit -m "fifth commit"
+ 1118  git log
+ 1119  # revert to a specific commit\n
+ 1120  git log
+ 1121  git revert 92900bf5ef38db0c487eb20f404ffd7149bf7085
+ 1122  git revert --skip
+ 1123  ls -al
+ 1124  cat myfile1.txt
+ 1125  git revert HEAD
+ 1126  git log
+ 1127  # edit one of your commit messages\n
+ 1128  git commit --amend
+ 1129  git log
+ 1130  # check the current status of version control
+ 1131  git status
+ 1132  touch myfile2.txt
+ 1133  echo "some text into second file" >> myfile2.txt
+ 1134  cat myfile2.txt
+ 1135  git add myfile2.txt
+ 1136  git status
+ 1137  git restore --staged myfile2.txt
+ 1138  git status
+ 1139  cd ..
+ 1140  tree
+ 1141  # maybe this command doesnt work on windows :D
+ 1142  # see your command history with command "history"\n
+ 1143  history | tail -50
