@@ -1,2 +1,3 @@
 some text first line
 some text second line
+some text third line
